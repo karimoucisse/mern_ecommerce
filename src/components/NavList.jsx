@@ -20,7 +20,7 @@ export const NavList = () => {
 		},
 	]
   return (
-	<div class="flex gap-[50px]">
+	<div class="flex justify-center gap-[50px]">
 		{List.map((element) => (
 			<div key={element.name}>
                 <a href={element.link}>{element.name}</a>
